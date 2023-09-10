@@ -162,17 +162,19 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #3498db;
+  background-image: linear-gradient(to right, #f7ec2e 10%, #97ca45 20%, #67ff94 60%, #60c19e 80%, #4db4d3 100%);
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
-  color: #fff;
+  color: #111;
+  transition: 0.5s;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #4aa3df;
+  background-position: right center; /* change the direction of the change here */
+  color: #111;
+  text-decoration: none;
 }
 
 .navbar .dropdown ul {
@@ -372,7 +374,7 @@ h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+.btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -381,13 +383,15 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
+  background-image: linear-gradient(to right, #f5fc18 10%, #8ffe62 30%, #3498db 100%);
+  background-size: 200% auto;
+  color: #111;
 }
 
-#hero .btn-get-started:hover {
-  background: #3498db;
-  color: #fff;
+.btn-get-started:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #111;
+  text-decoration: none;
 }
 
 #hero .animated {
@@ -723,7 +727,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background-image: linear-gradient(to right, #f5fc18 10%, #8ffe62 30%, #3498db 100%);
   transition: all 0.3s ease-in-out;
 }
 
@@ -1490,19 +1494,6 @@ section {
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
   border-color: #3498db;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #3498db;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #2383c4;
 }
 
 @keyframes animate-loading {
