@@ -20,7 +20,7 @@ try {
     $mail->Username = 'info@tinytech.it'; 					// Nome utente SMTP
     $mail->Password = 'xxxxxxx';          			// Password SMTP
     $mail->SMTPSecure = 'tls';                      // Utilizza TLS (SSL è anche un'opzione)
-    $mail->Port = 993;                             	// Porta SMTP
+    $mail->Port = 465;                             	// Porta SMTP
 
 
     // Recupera i dati dal modulo HTML
